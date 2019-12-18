@@ -1,0 +1,5 @@
+﻿new-item -path c:\testFolder -itemtype directory ;
+new-item -path c:\testFolder\testFile -itemtype file ;
+new-item -path c:\testFolder\LIFile -itemtype file ;
+$text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus neque, ornare nec urna sit amet, molestie convallis risus. Mauris aliquet viverra nunc, at blandit nisi pretium efficitur. Fusce at dictum nisl. Curabitur at blandit tellus. Sed id arcu placerat, blandit nisi eget, maximus purus. Phasellus luctus vulputate tortor, ut eleifend nisi convallis id. Fusce non interdum turpis. Nulla vitae efficitur turpis. Mauris condimentum, sem ut bibendum aliquet, dui dolor varius dolor, at accumsan velit metus eu ipsum. Proin mattis egestas ipsum, ut gravida lorem facilisis eu. Ut id sapien neque. Pellentesque suscipit tincidunt lectus id pellentesque." 
+$text >> C:\testFolder\LIFile
